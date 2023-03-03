@@ -24,6 +24,7 @@ windows脚本后续会补充，如着急使用，请自行编写。
 
 必要配置：
 需要在 arlCheck.py中补充ARL的地址、账户、密码
+
        send_vx_messag.py中补充 企业微信机器人的key
 
 启动方案：
