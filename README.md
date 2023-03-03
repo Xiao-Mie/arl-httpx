@@ -16,3 +16,18 @@ arl联动httpx
 
 从ARL从获取探寻到的子域名，导入到httpx中探活，并标记存活的域名地址。
 便于安全团队快速过滤掉无效域名，增加工作效率。
+
+
+使用前必看：
+目前仅提供linux下启动脚本
+windows脚本后续会补充，如着急使用，请自行编写。
+
+必要配置：
+需要在 arlCheck.py中补充ARL的地址、账户、密码
+       send_vx_messag.py中补充 企业微信机器人的key
+
+启动方案：
+将三个脚本放置到同一目录下，配置好参数后，运行arl-httpx.sh即可。
+
+Tips：
+send_vx_messag.py 目前支持自定义发送消息。只需要启动时提供参数，参考案例： python3 send_vx_messag.py HelloWorld；机器人就会发送"HelloWorld"啦~
